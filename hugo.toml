@@ -1,3 +1,62 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+# baseURL = "https://links.charliehaslam.info/"
+languageCode = "en"
+defaultContentLanguage = "en"
+
+title = "Keywarn"
+copyright = "Copyright - Charlie Haslam"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[author]
+  # name = "Your name here"
+  # headline = "An awesome person"
+  image = "img/profile-img.jpg"  # path relative to static directory
+
+  links = [
+    # { email = "mailto:hello@your_domain.com" },
+     { itch = { href = "https://keywarn.itch.io/neon-shift", text = "Neon Shift"} },
+     { keydoo = { href = "https://keydoo-software.com", text = "Keydoo Software"} },
+     { twitter = "https://twitter.com/KeywarnDev" },
+     { tiktok = "https://tiktok.com/@Keywarn" },
+     { youtube = "https://youtube.com/@keywarn" },
+     { portfolio = { href = "https://charliehaslam.info/", text = "Portfolio"} },
+    # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
+    # { apple = "https://www.apple.com" },
+    # { codepen = "https://codepen.io/username" },
+    # { dev = "https://dev.to/username" },
+    # { discord = "https://discord.gg/invitecode" },
+    # { dribbble = "https://dribbble.com/username" },
+    # { facebook = "https://facebook.com/username" },
+    # { flickr = "https://www.flickr.com/photos/username/" },
+    # { foursquare = "https://foursquare.com/username" },
+     { github = "https://github.com/keywarn" },
+    # { gitlab = "https://gitlab.com/username" },
+    # { google = "https://www.google.com/" },
+    # { instagram = "https://instagram.com/username" },
+    # { keybase = "https://keybase.io/username" },
+    # { kickstarter = "https://www.kickstarter.com/profile/username" },
+    # { lastfm = "https://lastfm.com/user/username" },
+    # { linkedin = "https://linkedin.com/in/charlie-haslam" },
+    # { mastodon = "https://mastodon.instance/@username" },
+    # { medium = "https://medium.com/username" },
+    # { microsoft = "https://www.microsoft.com/" },
+    # { patreon = "https://www.patreon.com/username" },
+    # { pinterest = "https://pinterest.com/username" },
+    # { reddit = "https://reddit.com/user/username" },
+    # { slack = "https://workspace.url/team/userid" },
+    # { snapchat = "https://snapchat.com/add/username" },
+    # { soundcloud = "https://soundcloud.com/username" },
+    # { stack-exchange = "https://stackexchange.com/users/userid/username" },
+    # { stack-overflow = "https://stackoverflow.com/users/userid/username" },
+    # { steam = "https://steamcommunity.com/profiles/userid" },
+    # { telegram = "https://t.me/username" },
+    # { tumblr = "https://username.tumblr.com" },
+    # { twitch = "https://twitch.tv/KeywarnDev" },
+    # { whatsapp = "https://wa.me/phone-number" },
+  ]
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.86.1"

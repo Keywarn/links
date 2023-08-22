@@ -14,7 +14,7 @@
     background-color: #fa5c5c;
   }
 
-  .link-keydoo {
+.link-keydoo, .link-discord {
     color: rgb(255 255 255);
     background-color: black;
     font-family: Hacked;

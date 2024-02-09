@@ -15,9 +15,10 @@ disableKinds = ["taxonomy", "term"]
 
   links = [
     # { email = "mailto:hello@your_domain.com" },
-     { itch = { href = "https://keywarn.itch.io/neon-shift", text = "Neon Shift"} },
+     { steam = {href = "https://store.steampowered.com/app/2671600/Neon_Shift/", text = "Neon Shift (Wihlist Now)"} },
      { keydoo = { href = "https://keydoo-software.com", text = "Keydoo Software"} },
      { discord = { href = "https://discord.com/invite/hyZDFUxdkE", text = "Keydoo Software Community Discord" } },
+     { itch = { href = "https://keywarn.itch.io/neon-shift", text = "Neon Shift: Web Demo"} },
      { twitter = "https://twitter.com/KeywarnDev" },
      { tiktok = "https://tiktok.com/@Keywarn" },
      { youtube = "https://youtube.com/@keywarn" },
@@ -37,7 +38,7 @@ disableKinds = ["taxonomy", "term"]
     # { keybase = "https://keybase.io/username" },
     # { kickstarter = "https://www.kickstarter.com/profile/username" },
     # { lastfm = "https://lastfm.com/user/username" },
-    # { linkedin = "https://linkedin.com/in/charlie-haslam" },
+     { linkedin = "https://linkedin.com/in/charlie-haslam" },
     # { mastodon = "https://mastodon.instance/@username" },
     # { medium = "https://medium.com/username" },
     # { microsoft = "https://www.microsoft.com/" },
@@ -49,7 +50,6 @@ disableKinds = ["taxonomy", "term"]
     # { soundcloud = "https://soundcloud.com/username" },
     # { stack-exchange = "https://stackexchange.com/users/userid/username" },
     # { stack-overflow = "https://stackoverflow.com/users/userid/username" },
-    # { steam = "https://steamcommunity.com/profiles/userid" },
     # { telegram = "https://t.me/username" },
     # { tumblr = "https://username.tumblr.com" },
     # { twitch = "https://twitch.tv/KeywarnDev" },
